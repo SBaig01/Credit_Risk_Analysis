@@ -7,18 +7,23 @@ This analysis was conducted to use various machine learning methods in evaluting
 3. Undersampling ClusterCentroids algorithm with imblearn.ensemble library. I trained and compared two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model.
 
 ## Results: 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-* Naive Random Oversampling results: The accuracy test is 64%, the precision for high_risk is 1% and low_risk is 100%, and the recall is 74%
- ![Naive Random Oversampling](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Naive%20Random%20Oversampling.png)
-* SMOTE oversampling results
- ![SMOTE oversampling](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/SMOTE%20oversampling.png)
-* Undersampling results
- ![Undersampling](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Undersampling.png)
-* Combination(over and undersampling) results
- ![Combination(over and undersampling)](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Combination(over%20and%20undersampling).png)
-* Balanced Random Forest Classifier results
- ![Balanced Random Forest Classifier](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Balanced%20Random%20Forest%20Classifier.png)
-* Easy Ensemble AdaBoost Classifier results
- ![Easy Ensemble AdaBoost Classifier results](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Easy%20Ensemble%20AdaBoost%20Classifier.png)
+The results for each of the 6 modules is as follows:
+* Naive Random Oversampling results: The accuracy score is 64%; the precision is 1% for high_risk and 100% for low_risk; and the recall is 69% and 59%, respectively.
+  ![Naive Random Oversampling](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Naive%20Random%20Oversampling.png)
+
+* SMOTE Oversampling results: The accuracy score is 66%; the precision is 1% for high_risk and 100% for low_risk; and the recall is 63% and 59%, respectively.
+  ![SMOTE oversampling](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/SMOTE%20oversampling.png)
+
+* Undersampling results: The accuracy score is 66%; the precision is 1% for high_risk and 100% for low_risk; and the recall is 69% and 40%, respectively.
+  ![Undersampling](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Undersampling.png)
+
+* Combination (over and undersampling) results: The accuracy score is 54%; the precision is 1% for high_risk and 100% for low_risk; and the recall is 72% and 57%, respectively.
+  ![Combination(over and undersampling)](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Combination(over%20and%20undersampling).png)
+
+* Balanced Random Forest Classifier results: The accuracy score is 84%; the precision is 4% for high_risk and 100% for low_risk; and the recall is 77% and 90%, respectively.
+  ![Balanced Random Forest Classifier](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Balanced%20Random%20Forest%20Classifier.png)
+
+* Easy Ensemble AdaBoost Classifier results: The accuracy score is 93%; the precision is 7% for high_risk and 100% for low_risk; and the recall is 91% and 94%, respectively.
+  ![Easy Ensemble AdaBoost Classifier results](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Easy%20Ensemble%20AdaBoost%20Classifier.png)
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
