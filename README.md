@@ -26,4 +26,5 @@ The results for each of the 6 modules is as follows:
 * Easy Ensemble AdaBoost Classifier results: The accuracy score is 93%; the precision is 7% for high_risk and 100% for low_risk; and the recall is 91% and 94%, respectively.
   ![Easy Ensemble AdaBoost Classifier results](https://github.com/SBaig01/Credit_Risk_Analysis/blob/0095debfe3bc01aad6b264e58284e42087d8bada/Images/Easy%20Ensemble%20AdaBoost%20Classifier.png)
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary: 
+Overall, the Easy Ensemble AdaBoost Classifier was the best model to use. It yielded the higest accuracy, precision and recall scores over all models, and substantially more than the logistic regression models (all four). I would suggest that we use the same model for our credit risk assessment purposes.
